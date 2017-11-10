@@ -1,0 +1,18 @@
+// OBJETO            -> É o objeto em si. Por exemplo uma Caneta
+// CLASSE            -> É o projeto da Caneta, é a idealização de uma caneta, o quê a caneta tem para poder ser uma caneta
+
+// ATRIBUTOS      -> São as características de um objeto
+// MÉTODOS          -> São açoes do nosso objeto
+// ESTADO          -> Características atuais no momento em que estou analisando este objeto
+
+// INSTANCIAR      -> É quando eu pego uma classe e gero um objeto a partir desta classe
+// VISIBILIDADE      -> Publica -> Acesso de fora da classe
+                                     Protegida -> Acesso apenas dentro da Classe Mãe e suas classes Filhas
+                                     Privado -> Acesso apenas dentro da Classe Mãe
+                                   Ex.: Controle Remoto: Botões -> públicos
+
+Componentes Internos -> protegidos e privados * Depende do Componente
+Componente que comunica com outro componente -> protegido
+
+// MÉTODOS ACESSORES -> getters() - getAlgo();
+// MÉTODOS MODIFICADORES-> setters(valor) - setAlgo(valor);
